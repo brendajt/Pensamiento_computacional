@@ -7,3 +7,6 @@
            = Primera mayuscula: Primerarchivo
 
 ### Sintaxis 
+
+bug= error
+debug= limpiar el error 
