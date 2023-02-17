@@ -61,3 +61,76 @@ Los caracteres y los strings van entre comillas siempre.
 ### Boleeanos 
 Boleanos = true or false 
 bol 
+
+
+## Clase 17/02/23
+
+1. Inicio
+2. Declarar (variables) son los datos -Numericos, -Alfanumericos y -Boleanos
+Las variables pueden cambiar, ingredientes para los programas 
+Tipos de variables:
+-Numerica
+-Alfanumericas- Lo que este entre comillas, puede ser npuneros o texto pero siempre entre comillas
+-Lógicas es decir Boleanas verdadera o falsa. 
+Variable de trabajo cuando tiene una operación. 
+Variables acumuladoras que adentro tienen otras variables que moveran su valor. 
+Variables contador son las que permiten controlar ciclos. Normalmente se representa con las letras "i, j y k" 
+
+
+## Sintaxis 
+No puede iniciar con un número la variable
+No puede llevar guiones medios
+No puedes dejar espacios
+Poner nombre de la varible, signo igual y contenido de la variable 
+
+## Convenciones
+snakecase: nombre_alumno
+18 caracteres
+Contenido: dar nombres en referencia a lo que contiene 
+no empezar con mayuscula mi variable ni con caracteres especiales como @,#, etc
+
+# Operadores 
+## Aritmeticas
+-Suma 
+-Resta
+-Multiplicación
+-División
+Dan prioridad de la siguiente forma
+()
+^ o **  -Pontencia
+-Divisiones y multiplicaciones 
+-Residuo (%) o división de piso (//) ej. 20/3= 6 y 20%3=2 ya que es lo que sobra
+-Sumas y Restas
+
+## Relacionales
+< Menor que 
+> Mayor que 
+== igual que 
+!= diferente  o <>
+>=
+<=
+Obtendremos como resultado un boleano. 
+
+## Lógicos
+and &&
+or  ||
+not  ¬ 
+
+
+# PSINT 
+## Para saludar
+1. Inicio
+2. Declarar (nombre(str))
+3. Mostrar ("Escribe tu nombre)
+4. Asignar (nombre)
+5. Mostrar ("hola",nombre) el texto vaentre comillas, la variable no,para unir una variable y un texto ponemos una coma.
+
+
+
+
+
+
+
+
+
+
