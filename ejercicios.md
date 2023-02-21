@@ -1,4 +1,8 @@
    ## PSeInt
+   
+   Mostrar es Escribir
+   Asignar es leer
+   
    Codigo para calcular promedio 
    
      Algoritmo Promedio_1
