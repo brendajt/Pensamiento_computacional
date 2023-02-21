@@ -13,19 +13,28 @@ X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
 
 X = (5 + 2 * 4) – (25 +. 5) * 2
 
-      TU RESPUESTA AQUI
+      X = (5+8) - (25.5) * 2
+      X = (13) - 51
+      X = - 38
 
 X = (100/5^2 + 1) + 11 * 3
 
-      TU RESPUESTA AQUI
+      X = (100/25 + 1 ) + 33
+      X = (4 + 1) + 33
+      X = 5 + 33
+      X = 38
 
 X = ((8-6)^2*3)^3.
 
-      TU RESPUESTA AQUI
+      X = ((2)^2*3)^3
+      x = ((2)^6)^3
+      X = ((64)^3
+      X = 262144
 
 x = ((8+5) *4) * (10-6)/4) 
 
-      TU RESPUESTA AQUI
+     X = ((13) * 4) * (4)/4)
+     X = (52) * 
 
 ## OPERADORES RELACIONALES
 Reto. Una empresa de logística ofrece a sus trabajadores un bono de
