@@ -139,7 +139,7 @@ not  ¬
            anio int 
 
 3. Asignar 
- seg_dia = 60*60*40   --- Variables de trabajo 
+ seg_dia = 60 * 60 * 40   --- Variables de trabajo 
 4. Asignar 
  seg_mes = seg_dia * 30  --- variable acumulador 
 5. Asignar 
