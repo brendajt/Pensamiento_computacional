@@ -117,15 +117,43 @@ or  ||
 not  ¬ 
 
 
-# PSINT 
-## Para saludar
+## PSINT 
+### Para saludar
 1. Inicio
 2. Declarar (nombre(str))
 3. Mostrar ("Escribe tu nombre)
 4. Asignar (nombre)
 5. Mostrar ("hola",nombre) el texto vaentre comillas, la variable no,para unir una variable y un texto ponemos una coma.
 
+## Clase 21/02/23
+1. INICIO
+2. Declarar :
 
+           habitantes int
+           tiempo total int
+           seg_dia int
+           seg_mes int
+           seg_anio int
+           dia int
+           mes int
+           anio int 
+
+3. Asignar 
+ seg_dia = 60*60*40   --- Variables de trabajo 
+4. Asignar 
+ seg_mes = seg_dia * 30  --- variable acumulador 
+5. Asignar 
+ seg_anio = seg_mes * 12 
+6. Mostrar "Ingresa el número de habitantes"
+7. Asignar  habitantes 
+8. tiempo_total = habitantes * 1
+9. anio= tiempo_total // seg_anio   --- division de piso para solo tener la parte entera 
+10. tiempo_total % seg_anio  --- residuo de piso, muestra lo que sobra en una división
+11. mes = tiempo_total // seg_mes
+12. tiempo_total % seg_mes
+13. dia = tiempo_total // seg_dia
+14. Mostrar "Tardaras" anio, "años y ", mes , "meses con ", dias "días"
+15. FIN
 
 
 
