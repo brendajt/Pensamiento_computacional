@@ -155,6 +155,7 @@ not  ¬
 14. Mostrar "Tardaras" anio, "años y ", mes , "meses con ", dias "días"
 15. FIN
 
+### Clase 22/02/23
 
 
 
