@@ -126,6 +126,22 @@ Código de un prestamo con interes compuesto
       FinAlgoritmo
 
 
+Realiza el ejercicio de un programa que calcula el promedio, y el estatus (aprobado o reprobado) de un alumno de alguno de los siguientes tres grupos:
+Grupo 1:
+- Español 
+- Matematicas 
+- Ciencias
+Grupo 2:
+- Español
+- Matemtaticas
+- Ciencias
+- Ingles
+Grupo 3:
+- Español
+- Matemataticas
+- Ciencias
+- Ingles
+- Musica
 
 
 
