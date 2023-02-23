@@ -124,7 +124,44 @@ Código de un prestamo con interes compuesto
          Escribir 'El pago total por un prestamo de ',prestamo,' es de ',total,' a ',mensualidad,' mensualidades de ',pago_men
 
       FinAlgoritmo
+### Diagrama de Flujo de mi código
+![image](https://user-images.githubusercontent.com/125502269/221010158-a1a1eef8-5540-49c9-8265-dff2de753234.png)
 
+Código con conectores Simples y Compuestos
+
+      Algoritmo Cali_simple
+         Definir nombre Como Caracter
+         Definir espanol Como Real
+         Definir mate Como Real
+         Definir ciencias Como Real
+         Definir promedio Como Real
+         Escribir "Cual es el nombre del alumno"
+         Leer nombre
+         Escribir "Calificación de Español"
+         Leer espanol
+         //Validar si la calificación es permitida o no.
+         // Solo se puede calificaciones de 0-10
+         Si espanol > 10 Entonces
+            Escribir 	"Calificación invalida"
+          Fin Si
+         Escribir "Calificación de Matematicas"
+         Leer mate
+         Si mate > 10 Entonces
+            Escribir 	"Calificación invalida"
+          Fin Si
+         Escribir "Calificación de Ciencias"
+         Leer ciencias
+         Si ciencias > 10 Entonces
+            Escribir 	"Calificación invalida"
+          Fin Si
+         promedio<-(espanol+mate+ciencias)/3
+         Si promedio >= 6 Entonces
+            Escribir "El alumno ", nombre, " obtuvo un promedio de :", promedio, " entonces aprobo"
+         SiNo
+            Escribir "El alumno ", nombre, " obtuvo un promedio de :", promedio, " entonces reprobo"
+         Fin Si
+
+      FinAlgoritmo
 
 Realiza el ejercicio de un programa que calcula el promedio, y el estatus (aprobado o reprobado) de un alumno de alguno de los siguientes tres grupos:
 Grupo 1:
@@ -133,7 +170,7 @@ Grupo 1:
 - Ciencias
 Grupo 2:
 - Español
-- Matemtaticas
+- Matematicas
 - Ciencias
 - Ingles
 Grupo 3:
