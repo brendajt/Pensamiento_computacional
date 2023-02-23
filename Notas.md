@@ -157,6 +157,69 @@ not  ¬
 
 ### Clase 22/02/23
 
+### Clase 23/02/23
+
+Condicionales 
+- Simple: 
+Si --> entonces 
+if
+*Si se pasa algo, entonces haces algo
+
+-Compuesta 
+Si --> entonces
+en caso contrario 
+if 
+else
+Si pasa algo entonces haces algo 
+Pero si no pasa haces otra cosa
+
+-Añadida 
+Si --> entonces
+Si --> entonces 
+de lo contrario 
+if else
+elif
+
+Ejemplos:
+-Simple:
+letra = " "
+"Ingresa letra"
+Si letra == "a"
+entonces "a es vocal y es a"
+
+TERMINA
+
+-Compuesta 
+Si vocal == "a"
+"Es vocal y es a"
+SI No
+"no es la a"
+
+-Añadida
+Si vocal == "a"
+Entonces "Es vocal y es a"
+Si no 
+Si vocal == "e"
+"Es vocal y es e"
+Si no .....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
