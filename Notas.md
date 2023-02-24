@@ -174,7 +174,7 @@ Operadores:
            - or
 2. Aritmeticos (mayor a menor jerarquia
            - () parentesís
-           - ^ potensía 
+           - ^ potencia 
            - * / multiplicación y división 
            - // % división y residuo de piso
            - + - suma y resta  
