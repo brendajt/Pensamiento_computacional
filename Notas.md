@@ -184,7 +184,18 @@ Operadores:
            - == igual que 
            - <! <> distinto que
            - <= menor o igual que
-           - >= mayor o igual que          
+           - >= mayor o igual que      
+
+Variable: 
+- Alfanumerico
+- Lógicos
+- Numerica
+- de trabajo 
+
+Estructura de los algoritmos 
+- Entrada de Datos
+- Procesos
+- Salida de Datos
            
            
            
