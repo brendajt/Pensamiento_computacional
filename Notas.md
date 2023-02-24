@@ -197,7 +197,7 @@ Estructura de los algoritmos
 - Procesos
 - Salida de Datos
            
-           <img width="319" alt="Captura de Pantalla 2023-02-23 a la(s) 22 17 55" src="https://user-images.githubusercontent.com/125502269/221090645-16b10dc6-4f81-452e-a39d-6c6a73a198f5.png">
+<img width="319" alt="Captura de Pantalla 2023-02-23 a la(s) 22 17 55" src="https://user-images.githubusercontent.com/125502269/221090645-16b10dc6-4f81-452e-a39d-6c6a73a198f5.png">
 
            
 ### Clase 23/02/23
