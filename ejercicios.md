@@ -180,10 +180,190 @@ Grupo 3:
 - Ingles
 - Musica
 
+Codigo para ejercicio "FALTA PROBAR" 
+
+      Algoritmo sin_titulo
+         Definir nombre Como Caracter
+         Definir espanol Como Real
+         Definir mate Como Real
+         Definir ciencias Como Real
+         Definir ingles Como Real
+         Definir musica Como Real
+         Definir promedio Como Real
+         Definir grupo Como Real
+         Escribir "Cual es el nombre del alumno"
+         Leer nombre
+         Escribir "¿A que grupo pertenece?"
+         Leer grupo
+         Si grupo = 1 Entonces
+            Escribir "Ingresa calificación español"
+            Leer espanol
+            Si espanol>0 Y espanol <= 10 Entonces
+               Escribir  "Ingresa calificación matematicas"
+               Leer mate
+               Si mate > 0 Y mate <= 10 Entonces
+                  Escribir "Ingresa calificación ciencias"
+                  Leer ciencias
+                  Si ciencias > 0 Y ciencias <= 10 Entonces
+                     promedio=(espanol+mate+ciencias)/3
+                     Leer promedio
+                     Si promedio >= 6 Entonces
+                        Escribir "El alumno ", nombre, " del grupo " , grupo, " obtuvo un promedio de :", promedio, " entonces aprobo"
+                     SiNo
+                        Escribir "El alumno ", nombre, " del grupo " , grupo, " obtuvo un promedio de :", promedio, " entonces reprobo"
+                     Fin Si
+                  SiNo
+                     Escribir "Datos no validos"
+                  Fin Si
+               SiNo
+                  Escribir "Datos no validos"
+               Fin Si
+            SiNo
+               Escribir "Datos no validos"
+            Fin Si
+         SiNo
+            Escribir "Datos no validos"
+         Fin Si
+
+         Si grupo = 2 Entonces
+            Escribir "Ingresa calificación español"
+            Leer espanol
+            Si espanol > 0 Y espanol <= 10 Entonces
+               Escribir  "Ingresa calificación matematicas"
+               Leer mate
+               Si mate > 0 Y mate <= 10 Entonces
+                  Escribir "Ingresa calificación ciencias"
+                  Leer ciencias
+                  Si ciencias > 0 Y ciencias <= 10 Entonces
+                     Escribir "Ingresa calificación ingles"
+                     Leer ingles
+                     Si ingles > 0 Y ingles >= 10 Entonces
+                        promedio = (espanol+mate+ciencias+ingles)/4
+                        Leer promedio
+                        Si promedio >= 6 Entonces
+                           Escribir "El alumno ", nombre, " del grupo " , grupo, " obtuvo un promedio de :", promedio, " entonces aprobo"
+                        SiNo
+                           Escribir "El alumno ", nombre, " del grupo " , grupo, " obtuvo un promedio de :", promedio, " entonces reprobo"
+                        Fin Si
+                     SiNo
+                        acciones_por_falso
+                     Fin Si
+
+                  SiNo
+                     Escribir "Datos no validos"
+                  Fin Si
+               SiNo
+                  Escribir "Datos no validos"
+               Fin Si
+            SiNo
+               Escribir "Datos no validos"
+            Fin Si
+         SiNo
+            Escribir "Datos no validos"
+         Fin Si
+      FinAlgoritmo
 
 
 
+Código PROBADO
 
+         Algoritmo Cali_simple
+            Definir nombre Como Caracter
+            Definir espanol Como Real
+            Definir mate Como Real
+            Definir ciencias Como Real
+            Definir ingles Como Real
+            Definir musica Como Real
+            Definir promedio Como Real
+            Definir grupo Como Real
+            Escribir "Cual es el nombre del alumno"
+            Leer nombre
+            Escribir "¿A que grupo pertenece?"
+            Leer grupo
+            Si grupo = 1 Entonces
+               Escribir "Calificación de Español"
+               Leer espanol
+               //Validar si la calificación es permitida o no.
+               // Solo se puede calificaciones de 0-10
+               Si espanol > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Matematicas"
+               Leer mate
+               Si mate > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Ciencias"
+               Leer ciencias
+               Si ciencias > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+            Fin Si
+               promedio<-(espanol+mate+ciencias)/3
+            Si grupo = 2 Entonces
+               Escribir "Calificación de Español"
+               Leer espanol
+               //Validar si la calificación es permitida o no.
+               // Solo se puede calificaciones de 0-10
+               Si espanol > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Matematicas"
+               Leer mate
+               Si mate > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Ciencias"
+               Leer ciencias
+               Si ciencias > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Ingles"
+               Leer ingles
+               Si ingles > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               promedio<-(espanol+mate+ciencias+ingles)/4
+            Fin Si
+            Si grupo = 3 Entonces
+               Escribir "Calificación de Español"
+               Leer espanol
+               //Validar si la calificación es permitida o no.
+               // Solo se puede calificaciones de 0-10
+               Si espanol > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Matematicas"
+               Leer mate
+               Si mate > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Ciencias"
+               Leer ciencias
+               Si ciencias > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Ingles"
+               Leer ingles
+               Si ingles > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               Escribir "Calificación de Musica"
+               Leer musica
+               Si musica > 10 Entonces
+                  Escribir 	"Calificación invalida"
+               Fin Si
+               promedio<-(espanol+mate+ciencias+ingles+musica)/5
+            SiNo
+               Escribir "El grupo no es valido"
+            FinSi
+            Si promedio >= 6 Entonces
+               Escribir "El alumno ", nombre, " del grupo " , grupo, " obtuvo un promedio de :", promedio, " entonces aprobo"
+            SiNo
+               Escribir "El alumno ", nombre, " del grupo " , grupo, " obtuvo un promedio de :", promedio, " entonces reprobo"
+            Fin Si
+
+         FinAlgoritmo
 
 
 
