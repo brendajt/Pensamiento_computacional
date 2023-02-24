@@ -157,6 +157,37 @@ not  ¬
 
 ### Clase 22/02/23
 
+Tipo de Datos:
+1. Númericos
+           - int --> enteros
+           - float --> flotantes o reales 
+2. Boleanos 
+           - Falso
+           - verdadero
+3. Tipo de Caracter 
+           - char --> caracter
+           - string --> cadena
+
+Operadores:
+1. Lógigos 
+           - and
+           - or
+2. Aritmeticos (mayor a menor jerarquia
+           - () parentesís
+           - ^ potensía 
+           - * / multiplicación y división 
+           - // % división y residuo de piso
+           - + - suma y resta  
+3. Relacionales 
+           - < menor que
+           - > mayor que
+           - == igual que 
+           - <! <> distinto que
+           - <= menor o igual que
+           - >= mayor o igual que          
+           
+           
+           
 ### Clase 23/02/23
 
 Condicionales 
