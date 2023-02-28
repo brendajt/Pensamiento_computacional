@@ -365,9 +365,45 @@ Código PROBADO
 
          FinAlgoritmo
 
+Diagrama de Flujo de mi Calculadora
+![image](https://user-images.githubusercontent.com/125502269/221944463-0b546734-392f-4b3e-948f-d346e5b704cb.png)
+
+Código de una calculadora 
+
+      Algoritmo calculadora
+         Definir num1 Como Real
+         Definir num2 Como Real
+         Definir res Como Real
+         Definir operador Como Caracter
+         Escribir "Ingresa el primer número"
+         Leer num1
+         Escribir "Ingresar el segundo número"
+         Leer num2
+         Escribir "¿Que operación se desea realizar +, -, *, /"
+         Leer operador
+         Segun operador Hacer
+            "+":
+               res = (num1+num2)
+            "-":
+               res = (num1-num2)
+            "*":
+               res = (num1*num2)
+            "/":
+               Si num2 = 0 Entonces
+                  Escribir "No puedes dividir entre cero"
+               SiNo
+                  res = num1 / num2
+               Fin Si
 
 
+            De Otro Modo:
+               Escribir "Operación no valida"
+         Fin Segun
+         Escribir res
+      FinAlgoritmo
 
+Diagrama PSeInt
+![image](https://user-images.githubusercontent.com/125502269/221944628-0a2d1c48-42d7-41a4-acbf-627d3eebce2d.png)
 
 
 
