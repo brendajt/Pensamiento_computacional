@@ -253,7 +253,12 @@ CASE
 
 Ejercicio de la Calculadora usando CASE, donde podemos dar distintas instrucciones facilitando el código. 
 
-
+CICLOS/ITERADOR/BUCLE
+(Sirve para repetir código)
+for --> (para)
+while -> (mientras) No se sabe el número, primero checa y luego lo hace
+do while -> (hacer mientras) Hace algo al inicio, hace al menos una vez la condicion y luego checa. 
+        
 
 
 
