@@ -406,6 +406,49 @@ Diagrama PSeInt
 ![image](https://user-images.githubusercontent.com/125502269/221944628-0a2d1c48-42d7-41a4-acbf-627d3eebce2d.png)
 
 
+Código Calculadora 2.0
+
+      Algoritmo Cal
+         Definir num1 Como Real
+         Definir num2 Como Real
+         Definir res Como Real
+         Definir op Como Caracter
+         Leer num1
+         Leer op
+         Leer num2
+         Segun op Hacer
+            "+":
+               res = (num1+num2)
+            "-":
+               res = (num1-num2)
+            "*":
+               res = (num1*num2)
+            "/":
+               Si num2 = 0 Entonces
+                  Escribir "No puedes dividir entre cero"
+               SiNo
+                  res = num1 / num2
+               Fin Si
+            "^":
+               res = num1^num2
+            "%":
+               Si num2 = 0 Entonces
+                  Escribir "No puedes dividir entre cero"
+               SiNo
+                  res = num1 % num2
+               Fin Si		
+            "//":
+               Si num2 = 0 Entonces
+                  Escribir "No puedes dividir entre cero"
+               SiNo
+                  res = num1 MOD num2
+               Fin Si		
+
+            De Otro Modo:
+               Escribir "Operación no valida"
+         Fin Segun
+         Escribir res
+      FinAlgoritmo
 
 
 
