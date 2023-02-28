@@ -247,8 +247,11 @@ Si vocal == "e"
 Si no .....
 
 
+### Clase 28/02/23
 
+CASE
 
+Ejercicio de la Calculadora usando CASE, donde podemos dar distintas instrucciones facilitando el código. 
 
 
 
