@@ -451,4 +451,50 @@ Código Calculadora 2.0
       FinAlgoritmo
 
 
+Código usando for para imprimir los números pares hasta el 10
+
+      Algoritmo Pares
+         Para i<-0 Hasta 100 Con Paso 2 Hacer
+            Escribir i
+         Fin Para
+      FinAlgoritmo
+
+
+Código para ver las tablas de multiplicar 
+
+      Algoritmo tablas
+         Definir num Como Entero
+         Definir res Como Entero
+         Escribir "Dime de que número"
+         Leer num
+         Para i<-1 Hasta 10 Con Paso 1 Hacer
+            res = i * num
+            Escribir num," x ",i," = ",res
+         Fin Para
+      FinAlgoritmo
+
+
+Código para imprimir tu nombre n veces 
+
+      Algoritmo nombre_n_veces
+         Definir nombre Como Caracter
+         Definir veces Como Entero
+         Escribir "Ingresa tu nombre"
+         Leer nombre
+         Escribir "Cuantas veces quieres que imprima"
+         Leer veces
+         Para i<-1 Hasta veces Con Paso 1 Hacer
+            Escribir i, nombre
+         Fin Para
+      FinAlgoritmo
+
+
+
+
+
+
+
+
+
+
 
