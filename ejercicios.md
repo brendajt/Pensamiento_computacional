@@ -488,7 +488,7 @@ Código para imprimir tu nombre n veces
          Fin Para
       FinAlgoritmo
 
-Código para promediar n manterias de un alumno 
+Código para promediar n materias de un alumno 
 
       Algoritmo prom_1_alumno
          Definir nombre Como Caracter
@@ -509,7 +509,7 @@ Código para promediar n manterias de un alumno
          Escribir "El promedio del alumno ", nombre  " es: ", prom
       FinAlgoritmo
 
-Código para promediar n materias de n alumnos (Problema encontrado: Para el alumno 2 se guardaba el promedio del alumno 1. Solución: Reinicializar todos los datos para "limpiar" mis variables como suma, calificacion y promedio y con un uevo alumno o dato se vuelva a limpiar) 
+Código para promediar n materias de n alumnos (Problema encontrado: Para el alumno 2 se guardaba el promedio del alumno 1. Solución: Reinicializar todos los datos para "limpiar" mis variables como suma, calificacion y promedio y con un nuevo alumno o dato se vuelva a limpiar. Bastaba con reiniciar suma ya que es la variable donde se estaban guardando las calificaciones.) 
 
       Algoritmo prom_n_alumnos
          Definir nombre Como Caracter
@@ -533,8 +533,7 @@ Código para promediar n materias de n alumnos (Problema encontrado: Para el alu
             Fin Para
             Escribir "El promedio del alumno ", nombre  " es: ", prom 
             suma<-0
-            calf<-0
-            prom<-0
+            
          Fin Para
 
       FinAlgoritmo
