@@ -488,7 +488,57 @@ Código para imprimir tu nombre n veces
          Fin Para
       FinAlgoritmo
 
+Código para promediar n manterias de un alumno 
 
+      Algoritmo prom_1_alumno
+         Definir nombre Como Caracter
+         Definir calf Como Real
+         Definir prom Como Real
+         Definir veces Como Entero
+         Definir suma Como Real
+         Escribir "Ingresa nombre del alumno"
+         Leer nombre
+         Escribir "¿Cuántas calificaciones tiene ", nombre
+         Leer veces
+         Para i<-1 Hasta veces Con Paso 1 Hacer
+            Escribir "Ingresa calificación ", i
+            Leer calf
+            suma = suma + calf
+            prom = suma / veces
+         Fin Para
+         Escribir "El promedio del alumno ", nombre  " es: ", prom
+      FinAlgoritmo
+
+Código para promediar n materias de n alumnos (Problema encontrado: Para el alumno 2 se guardaba el promedio del alumno 1. Solución: Reinicializar todos los datos para "limpiar" mis variables como suma, calificacion y promedio y con un uevo alumno o dato se vuelva a limpiar) 
+
+      Algoritmo prom_n_alumnos
+         Definir nombre Como Caracter
+         Definir calf Como Real
+         Definir prom Como Real
+         Definir veces Como Entero
+         Definir suma Como Real
+         Definir alumnos Como Entero
+         Escribir "¿Cuántos alumnos deseas capturar"
+         Leer alumnos
+         Para j<-1 Hasta alumnos Con Paso 1 Hacer
+            Escribir "Ingresa nombre del alumno ",j
+            Leer nombre
+            Escribir "¿Cuántas calificaciones tiene ", nombre
+            Leer veces
+            Para i<-1 Hasta veces Con Paso 1 Hacer
+               Escribir "Ingresa calificación ", i
+               Leer calf
+               suma = suma + calf
+               prom = suma / veces
+            Fin Para
+            Escribir "El promedio del alumno ", nombre  " es: ", prom 
+            suma<-0
+            calf<-0
+            prom<-0
+         Fin Para
+
+      FinAlgoritmo
+      
 
 
 
