@@ -555,6 +555,21 @@ Código que imprima las tablas de multiplicar del 1 al 10
       FinAlgoritmo
 
 
+Código para imprimir nuestro nombre con WHILE
+
+      Algoritmo imp_name
+         Definir nombre Como Caracter
+         Definir opc Como Caracter
+         Escribir "Ingresa tu nombre"
+         Leer nombre
+         Escribir "Quieres imprimir tu nombre S o N"
+         Leer opc
+         Mientras opc = "S" Hacer
+            Escribir nombre
+            Escribir "Quieres imprimir tu nombre S o N"
+            Leer opc
+         Fin Mientras
+      FinAlgoritmo
 
 
 
