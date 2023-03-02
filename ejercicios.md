@@ -634,7 +634,37 @@ Código que adivina número al azar y te da pistas
                Escribir "PERDISTE el número secreto era: ", num_sec
     FinAlgoritmo
 
+Código SIN ERROR de vidas
 
+      Algoritmo adiniva_num_vida
+            Definir num_sec Como Entero
+            Definir num_usu Como Entero
+            Definir vidas Como Entero
+            vidas<-5
+            num_sec<-(azar(99) + 1) //Se llama azar para que el programa escoja un número al azar
+            // Escribir num_sec Solo para ver que si me genera números random
+            Escribir "Adivina el número secreto, te restan " , vidas, " oportunidades"
+            Leer num_usu
+            Mientras num_sec <> num_usu  Y vidas > 1 Hacer
+               vidas = vidas - 1
+               Si num_sec > num_usu Entonces
+                  Escribir "El número secreto es mayor que el que ingresaste"
+               SiNo
+                  Escribir "El número secreto es menor que el que ingresaste"
+               Fin Si
+               Escribir "Te quedan ", vidas, " vidas"
+               Leer num_usu
+
+            Fin Mientras
+            Si num_sec = num_usu Entonces
+               Escribir "felicidades"
+            SiNo
+               Escribir "Se terminaron tus vidas, el número secreto era:" , num_sec
+            Fin Si
+
+
+
+      FinAlgoritmo
 
 
 
