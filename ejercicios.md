@@ -571,6 +571,73 @@ Código para imprimir nuestro nombre con WHILE
          Fin Mientras
       FinAlgoritmo
 
+Código para imprimir nuestro nombre n veces segun lo desee el usuario 
+
+      Algoritmo sin_titulo
+         Definir nombre Como Caracter
+         Definir veces Como Entero
+         Definir i Como Entero // Aquí si defino la i por que a diferencia del for el while no contiene al contador (i) 
+         Escribir "Ingresa nombre" 
+         Leer nombre
+         Escribir "¿Cuántas veces quieres imprimir tu nombre"
+         Leer veces
+         Mientras i < veces Hacer
+            Escribir nombre // Hacer que aumente nuestro contador, si no lo hacemos nunca terminara y será enterno.
+            i = i + 1 
+         Fin Mientras
+      FinAlgoritmo
+      
+      
+Código para adivinar un número al azar 
+
+      Algoritmo adiniva_num
+         Definir num_sec Como Entero
+         Definir num_usu Como Entero
+         num_sec<-(azar(9)) + 1 //Se llama azar para que el programa escoja un número al azar
+         // Escribir num_sec Solo para ver que si me genera números random
+         Escribir "Adivina el número secreto"
+         Leer num_usu
+         Mientras num_sec <>num_usu Hacer
+            Escribir "No le atinaste al número"
+            Leer num_usu
+         Fin Mientras
+         Escribir "Felicidades le atinaste" 
+
+      FinAlgoritmo
+
+Código que adivina número al azar y te da pistas 
+
+         Algoritmo adiniva_num_vida
+               Definir num_sec Como Entero
+               Definir num_usu Como Entero
+               Definir vidas Como Entero
+               vidas<-5
+               num_sec<-(azar(99) + 1) //Se llama azar para que el programa escoja un número al azar
+               // Escribir num_sec Solo para ver que si me genera números random
+               Escribir "Adivina el número secreto, te restan " , vidas, " oportunidades"
+               Leer num_usu
+               Mientras num_sec <> num_usu  Y vidas > 0 Hacer
+                  Si num_sec > num_usu Entonces
+                     Escribir "El número secreto es mayor que el que ingresaste"
+                  SiNo
+                     Escribir "El número secreto es menor que el que ingresaste"
+                  Fin Si
+                  Escribir "No le atinaste al número"
+                  Leer num_usu
+                  vidas = vidas - 1
+                  Escribir "Te quedan ", vidas, " vidas"
+                  Mientras num_sec = num_usu Hacer
+                     Escribir "Felicidades le atinaste"
+                     num_usu = num_usu + 1
+                  Fin Mientras
+               Fin Mientras
+               Escribir "PERDISTE el número secreto era: ", num_sec
+    FinAlgoritmo
+
+
+
+
+
 
 
 
