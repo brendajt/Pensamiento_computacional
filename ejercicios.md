@@ -538,7 +538,21 @@ Código para promediar n materias de n alumnos (Problema encontrado: Para el alu
 
       FinAlgoritmo
       
+## TAREA
+Código que imprima las tablas de multiplicar del 1 al 10 
 
+      Algoritmo TablasMultiplicar
+         Definir res Como Entero
+          Para i <- 1 Hasta 10 Con Paso 1 Hacer
+              Escribir "Tabla del ", i
+              Para j <- 1 Hasta 10 Con Paso 1 Hace
+               res=i*j
+                  Escribir i, " x ", j, " = ", res
+              FinPara
+              Escribir("")
+          FinPara
+
+      FinAlgoritmo
 
 
 
