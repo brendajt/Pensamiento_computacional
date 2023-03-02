@@ -260,6 +260,13 @@ while -> (mientras) No se sabe el número, primero checa y luego lo hace
 do while -> (hacer mientras) Hace algo al inicio, hace al menos una vez la condicion y luego checa. 
         
 
+### Clase 01/03/23
+
+
+### Clase 02/03/23
+
+WHILE (mientras) un while se puede usar en lugar de un for pero no pudo usar un for en lugar del while
+El while pregunta una condición y se cicla 
 
 
 
