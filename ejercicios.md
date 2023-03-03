@@ -666,7 +666,11 @@ Código SIN ERROR de vidas
 
       FinAlgoritmo
 
+## Pseudocódigo: 
 
+![image](https://user-images.githubusercontent.com/125502269/222811266-b6e853ef-90b8-4f78-aa1a-8f8c7cdc83bb.png)
+
+![image](https://user-images.githubusercontent.com/125502269/222811326-0143f1d4-9317-47bf-b374-c5bc8a691e49.png)
 
 
 
