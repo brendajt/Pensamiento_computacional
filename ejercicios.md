@@ -673,7 +673,19 @@ Código SIN ERROR de vidas
 ![image](https://user-images.githubusercontent.com/125502269/222811326-0143f1d4-9317-47bf-b374-c5bc8a691e49.png)
 
 
+## Proyecto FINAL
 
+![image](https://user-images.githubusercontent.com/125502269/223532119-a85ffd38-9642-4434-8373-6ef979849264.png)
 
+### Problema 1 código y diagrama 
 
+![image](https://user-images.githubusercontent.com/125502269/223532428-a5407a6e-236e-4828-b3ae-a247d85be0af.png)
+
+![image](https://user-images.githubusercontent.com/125502269/223532899-3525452b-b1e3-4470-ae03-a2358dd1d66b.png)
+
+### Problema 2 código y diagrama 
+
+![image](https://user-images.githubusercontent.com/125502269/223532638-73f3b862-79dd-43ac-aed3-17dbd273dc13.png)
+
+![image](https://user-images.githubusercontent.com/125502269/223532736-78a3e93b-6291-48e5-8585-b13ac251ccdb.png)
 
