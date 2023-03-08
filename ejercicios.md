@@ -689,3 +689,78 @@ Código SIN ERROR de vidas
 
 ![image](https://user-images.githubusercontent.com/125502269/223532736-78a3e93b-6291-48e5-8585-b13ac251ccdb.png)
 
+# Funciones 
+Función de redondeo y valor absoluto 
+
+      Algoritmo sin_titulo
+         Definir dis1 Como Real
+         Definir dis2 Como Real
+         Definir res Como Real
+         Escribir "Escribe la distancia 1"
+         Leer dis1
+         Escribir "Escribe la distancia 2"
+         Leer dis2
+         res=dis1-dis2
+         Escribir "La distancia de un punto al otro es: ", redon(abs(res ))
+      FinAlgoritmo
+
+Funcion de conteo de letras 
+
+         Algoritmo sin_titulo
+            Definir nombre Como Caracter
+            Escribir "Ingresa tu nombre"
+            Leer nombre 
+            Escribir "¿Tu nombre tiene: " Longitud(nombre), " letras"
+         FinAlgoritmo
+      
+Función que saluda 
+      Funcion Saludar 
+         Escribir "Bienvenido al programa que convierte grados Celsius a Fahrenheit "
+      Fin Funcion
+
+      Funcion F <- CelsiusAFah ( cel )
+         F<-1.8*cel +32
+      Fin Funcion
+
+      Algoritmo sin_titulo
+         Saludar()
+         Definir celsius Como Real
+         Escribir "Escribe la temperatura en Celsius" 
+         Leer celsius
+         Escribir celsius, " grados Centigrados equivalen a: ", redon(CelsiusAFah(celsius))
+      FinAlgoritmo
+      
+Función que saca el doble de un número
+
+      Funcion res <- Doble ( num )
+         res<-num * 2
+      Fin Funcion
+
+      Algoritmo sin_titulo
+         Definir x Como Entero
+         Escribir "Dame un número"
+         Leer x
+         Escribir "El doble de ", x " es: " Doble(x) 
+
+      FinAlgoritmo
+      
+Funcion que cálcula el área de un circulo
+
+      Funcion Saludar 
+         Escribir "Bienvenido al programa que calcula el área de un circulo "
+      Fin Funcion
+      Funcion area <- AreaCirculo ( radio )
+         area<- PI * radio ^ 2
+      Fin Funcion
+
+      Algoritmo sin_titulo
+         Definir r Como Real
+         Escribir "Dame el radio del circulo"
+         Leer r
+         Escribir "El área del circulo con radio ", r, " es: " , redon(AreaCirculo(r))
+      FinAlgoritmo
+
+
+## Kahoot!
+![image](https://user-images.githubusercontent.com/125502269/223824929-d1cddc2e-80db-489e-bbe0-3bc29814178e.png)
+
